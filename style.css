@@ -34,7 +34,7 @@ p {
 
 /* Hero Section */
 #hero{
-    background-image: url(./img/hero-bg.jpg);
+    background-image: url(./img/hero-bg.png);
     background-size: cover;
     background-position: top center;
     position: relative; 
@@ -147,7 +147,7 @@ p {
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    padding: 5px;
+    padding: 30px;
     border-radius: 10px;
     background-image: url(./img/img2.jpg);
     background-size: cover;
