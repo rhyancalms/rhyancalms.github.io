@@ -43,7 +43,19 @@ a{
     width: fit-content;
     font-size: 4rem;
     position: relative;
-    color: white;
+    color: transparent;
+    animation: text_reveal .5s ease forwards;
+    animation-delay: 1.5s;
+}
+#hero h1 span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background-color: orangered;
+    animation: text_reveal_box 1s ease;
+    animation-delay: 1s;
 }
 #hero .cta{
     display: inline-block;
@@ -62,5 +74,23 @@ a{
     color: white;
     background-color: orangered;
 }
-
 /* End Hero Section */
+
+
+/* Keyframes */
+@keyframes tex_reveal_box{
+    50%{
+        width: 100%;
+        left: 0;
+    }
+    100%{
+        width: 0;
+        left: 100%;
+    }
+}
+@keyframes text_reveal{
+    100%{
+        color: white;
+    }
+}
+/* End Keyframes */
