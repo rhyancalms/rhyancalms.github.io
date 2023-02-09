@@ -70,8 +70,8 @@ a{
     height: 100%;
     width: 0;
     background-color: orangered;
-    animation: text_reveal_box 1s ease;
-    animation-delay: .3s;
+    animation: text_reveal_box 1s ease forwards;
+    animation-delay: 1s;
 }
 #hero h1:nth-child(1) span{
     animation-delay: .5s;
