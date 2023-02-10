@@ -23,3 +23,33 @@ menu_item.forEach((item) => {
         mobile_menu.classList.toggle('active');
     });
 });
+
+$('.1').click(function(){
+    $('html, body').animate({
+        scrollTop: $("#hero").offset().top
+    }, 500, 'swing');
+});
+
+$('.2').click(function(){
+    $('html, body').animate({
+        scrollTop: $("#services").offset().top
+    }, 500, 'swing');
+});
+
+$('.3').click(function(){
+    $('html, body').animate({
+        scrollTop: $("#projects").offset().top
+    }, 500, 'swing');
+});
+
+$('.4').click(function(){
+    $('html, body').animate({
+        scrollTop: $("#about").offset().top
+    }, 500, 'swing');
+});
+
+$('.5').click(function(){
+    $('html, body').animate({
+        scrollTop: $("#contact").offset().top
+    }, 500, 'swing');
+});
