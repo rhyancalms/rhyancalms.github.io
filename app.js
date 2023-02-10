@@ -1,12 +1,3 @@
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener("click", function(e) {
-        e.preventDefault();
-        document.querySelectorAll(this.getAttribute("href")).scrollIntoView({
-            behavior : "smooth"
-        });
-    });
-});
-
 const hamburger = document.querySelector('.header .nav-bar .nav-list .hamburger');
 const mobile_menu = document.querySelector('.header .nav-bar .nav-list ul');
 const menu_item = document.querySelectorAll('.header .nav-bar .nav-list ul li a');
@@ -30,5 +21,14 @@ menu_item.forEach((item) => {
     item.addEventListener('click', () => {
         hamburger.classList.toggle('active');
         mobile_menu.classList.toggle('active');
+    });
+});
+
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener("click", function(e) {
+        e.preventDefault();
+        document.querySelectorAll(this.getAttribute("href")).scrollIntoView({
+            behavior : "smooth"
+        });
     });
 });
