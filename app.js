@@ -1,3 +1,12 @@
+document.querySelectorAll('a[href=^="#"]').forEach(anchor => {
+    anchor.addEventListener("click", function(e) {
+        e.preventDefault();
+        document.querySelectorAll(this.getAttribute("href")).scrollIntoView({
+            behavior : "smooth"
+        });
+    });
+});
+
 const hamburger = document.querySelector('.header .nav-bar .nav-list .hamburger');
 const mobile_menu = document.querySelector('.header .nav-bar .nav-list ul');
 const menu_item = document.querySelectorAll('.header .nav-bar .nav-list ul li a');
@@ -22,34 +31,4 @@ menu_item.forEach((item) => {
         hamburger.classList.toggle('active');
         mobile_menu.classList.toggle('active');
     });
-});
-
-$('.1').click(function(){
-    $('html, body').animate({
-        scrollTop: $("#hero").offset().top
-    }, 500, 'swing');
-});
-
-$('.2').click(function(){
-    $('html, body').animate({
-        scrollTop: $("#services").offset().top
-    }, 500, 'swing');
-});
-
-$('.3').click(function(){
-    $('html, body').animate({
-        scrollTop: $("#projects").offset().top
-    }, 500, 'swing');
-});
-
-$('.4').click(function(){
-    $('html, body').animate({
-        scrollTop: $("#about").offset().top
-    }, 500, 'swing');
-});
-
-$('.5').click(function(){
-    $('html, body').animate({
-        scrollTop: $("#contact").offset().top
-    }, 500, 'swing');
 });
