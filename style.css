@@ -248,6 +248,29 @@ section.landing .profile-area .inner-circle {
     overflow: hidden;
 }
 
-
+/* ========== About section ================= */
+section.about {
+    background: #151515;
+}
+section.about .container {
+    display: grid;
+    grid-template-columns: 26rem auto;
+    gap: 5rem;
+}
+section.about p {
+    margin-bottom: 1rem;
+}
+section.about .container .read-more-content {
+    display: none;
+}
+section.about .container .read-more {
+    display: block;
+    margin: 1rem 0 2rem;
+    color: var(--color-primary);
+    cursor: pointer;
+}
+section.about .container .read-more:hover {
+    text-decoration: underline;
+}
     
 
