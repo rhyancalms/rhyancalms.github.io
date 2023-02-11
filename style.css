@@ -56,6 +56,10 @@ h5 {
     font-size: 0.86rem;
 }
 
+h1 span {
+    color: var(--color-primary);
+}
+
 p{
     line-height: 1.8;
 }
@@ -305,5 +309,23 @@ section.skills .skill .item {
     padding: 1.6rem;
     background: var(--color-light);
     margin-bottom: 0.3rem;
+    transition: var(--transition);
+}
+section.skills .skill .item h5 {
+    color: var(--color-black);
+}
+section.skills .skill .item:hover {
+    background: var(--color-white);
+}
+section.skills .skill .progress-area {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+section.skills .skill .progress-bar {
+    width: 100%;
+    height: 1rem;
+    background: var(--color-primary-light);
 }
 
