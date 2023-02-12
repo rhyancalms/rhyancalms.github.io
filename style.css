@@ -328,15 +328,23 @@ section.skills .item .progress-bar {
     height: 1rem;
     background: var(--color-primary-light);
 }
-section.skills .item .progress-bar .progress {
+section.skills .item .progress {
     height: 100%;
     width: 30%;
     background: var(--color-primary);
 }
-section.skills .item:nth-child(2) .progress-bar .progress {
+section.skills .item:nth-child(2) .progress {
     width: 5%;
 }
-section.skills .item:nth-child(3) .progress-bar .progress {
+section.skills .item:nth-child(3) .progress {
     width: 50%;
 }
+section.skills .item:nth-child(4) .progress {
+    width: 30%;
+}
+section.skills .item:nth-child(5) .progress {
+    width: 15%;
+}
+
+
 
