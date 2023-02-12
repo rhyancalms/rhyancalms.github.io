@@ -56,3 +56,8 @@ skillItems.forEach(skill => {
         skill.querySelector('.items'.classList.toggle('show-items'))
     })
 })
+
+// add box shadow for scroll 
+window.addEventListener('scroll', () => {
+    document.querySelector('nav').classList.toggle('show-box-shadow',window.scrollY > 0);
+})
