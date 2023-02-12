@@ -339,12 +339,7 @@ section.skills .item:nth-child(2) .progress {
 section.skills .item:nth-child(3) .progress {
     width: 50%;
 }
-section.skills .item:nth-child(4) .progress {
-    width: 30%;
-}
-section.skills .item:nth-child(5) .progress {
-    width: 15%;
-}
+
 
 
 
