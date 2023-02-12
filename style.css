@@ -311,7 +311,7 @@ section.skills .skill .items {
 }
 
 /* ------------for javascript ------------- */
-section.skills .container .skill .items.show-items {
+section.skills .container .skills .items.show-items {
     display: block;
 }
 
