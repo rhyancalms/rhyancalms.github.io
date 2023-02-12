@@ -267,6 +267,11 @@ section.about p {
 section.about .container .read-more-content {
     display: none;
 }
+/* this will toggle read more content using JS */
+section.about .container .read-more-content.show-content {
+    display: block;
+}
+
 section.about .container .read-more {
     display: block;
     margin: 1rem 0 1.5rem;
@@ -281,8 +286,8 @@ section.about .container .read-more:hover {
 section.skills .container {
     width: 50%;
 }
-section.skills .skill {
-    margin-bottom: 4rem
+section.skills .container .skill {
+    margin-bottom: 1rem
 }
 section.skills .skill .head {
     background: var(--color-primary);
@@ -301,6 +306,15 @@ section.skills .skill .head .left {
     align-items: center;
     gap: 1rem;
 }
+section.skills .skill .items {
+    display: none;
+}
+
+/* ------------for javascript ------------- */
+section.skills .container .skill .items.show-items {
+    display: block;
+}
+
 section.skills .skill .item {
     display: flex;
     flex-direction: column;
@@ -311,6 +325,14 @@ section.skills .skill .item {
     margin-bottom: 0.3rem;
     transition: var(--transition);
 }
+/* --- for javascript --- */
+section.skills .container .skill .items.show-items {
+    display: block;
+}
+section.skills .skill .item:hover {
+    background: var(--color-white);
+}
+
 section.skills .skill .item h5 {
     color: var(--color-black);
 }
