@@ -505,3 +505,33 @@ footer .copyright {
     font-size: 0.8;
 }
 
+
+/* ========================== Media Queries (Phones) ========================= */
+@media screen and (max-width:600px) {
+    h1 {
+        font-size: 2.2rem;
+    }
+    h2 {
+        font-size: 1.6rem;
+    }
+    h3 {
+        font-size: 1.2rem;
+    }
+    h4 {
+        font-size: 1rem;
+    }
+    h5 {
+        font-size: 0.68rem;
+    }
+    /* Nav bar */ 
+    nav {
+        box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, 0.1);
+    }
+    nav h3 {
+        margin-left: 1rem;
+    }
+    nav .container {
+        width: 100%;
+    }
+    
+}
