@@ -362,6 +362,7 @@ section.services .container .service {
     gap: 2rem;
     cursor: default;
     transition: var(--transition);
+    border-radius: 10%;
 }
 section.services .container .service:hover {
     box-shadow: 0 3rem 3rem var(--color-primary-light);
