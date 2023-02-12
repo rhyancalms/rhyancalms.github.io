@@ -539,9 +539,9 @@ footer .copyright {
 
 
 /* ========================== Media Queries (Phones) ========================= */
-@media screen and (max-width:600px) {
+@media screen and (max-width:360px) {
     h1 {
-        font-size: 2.1.5rem;
+        font-size: 2.2rem;
     }
     h2 {
         font-size: 1.6rem;
@@ -598,16 +598,16 @@ footer .copyright {
 
     /* =========================LANDING SECTION==============================*/
     section.landing {
-        margin-top: -4rem;
-        padding: 7rem;
+        margin-top: 1rem;
+        padding: 3rem;
         max-width: 100vw;
         overflow: hidden;
     }
     section.landing .container {
         grid-template-columns: 1fr;
-        grid-template-rows: 20% 50%;
+        grid-template-rows: 25% 50%;
         text-align: center;
-        row-gap: 6rem;
+        row-gap: 3rem;
     }
     section.landing .container .socials {
         display: none;
@@ -625,7 +625,7 @@ footer .copyright {
     }
     section.landing .container .profile-area {
         grid-row: 1;
-        width: 94%;
+        width: 100%;
         margin: 0 auto;
     }
     section.landing .container .outer-circle {
