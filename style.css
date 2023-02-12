@@ -379,5 +379,22 @@ section.services .container .service span {
     color: var(--color-white);
 }
 
+/*---------------------------- Portfolio Section ------------------------------------*/
+section.recent-work h1{
+    text-align: left;
+    margin: 3rem 0 1rem;
+    width: 65%;
+}
+section.recent-work .projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+}
+section.recent-work .projects .project {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
 
 
