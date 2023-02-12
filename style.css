@@ -336,3 +336,7 @@ section.skills .item .progress-bar .progress {
 section.skills .item:nth-child(2) .progress-bar .progress {
     width: 5%;
 }
+section.skills .item:nth-child(3) .progress-bar .progress {
+    width: 50%;
+}
+
